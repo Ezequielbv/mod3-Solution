@@ -1,0 +1,66 @@
+body {
+  color: #9F6C2E;
+  background-color: #FFFACD;
+  font-family: 'Architects Daughter', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header {
+  padding-bottom: 20px;
+}
+.navbar-brand {
+  padding-top: 25px;
+  vertical-align: auto;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Architects Daughter', cursive;
+  color: #fff;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fff;
+  color:#808080;
+}
+#nav-list hr {
+  width: 90%;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+#main-content{
+  background-color: #959595;
+  color: #111;
+  margin: 50px 20px 10px 20px;
+  padding: 5px 20px 20px 20px;
+  text-align: justify;
+  height: 1000px;
+}
